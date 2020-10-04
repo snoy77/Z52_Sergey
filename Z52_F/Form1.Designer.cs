@@ -42,8 +42,10 @@
             // 
             // button1
             // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(234, 109);
+            this.button1.Location = new System.Drawing.Point(535, 109);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(164, 47);
             this.button1.TabIndex = 0;
@@ -115,7 +117,7 @@
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Location = new System.Drawing.Point(6, 19);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(201, 439);
+            this.checkedListBox1.Size = new System.Drawing.Size(502, 439);
             this.checkedListBox1.TabIndex = 8;
             // 
             // groupBox1
@@ -125,7 +127,7 @@
             this.groupBox1.Controls.Add(this.checkedListBox1);
             this.groupBox1.Location = new System.Drawing.Point(15, 90);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(213, 476);
+            this.groupBox1.Size = new System.Drawing.Size(514, 476);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Word файлы в выбранном пути";
