@@ -26,7 +26,7 @@ namespace WorkersDll
         //    return result;
         //}
         
-        public static void Start()
+        public static void Start(string[] docFiles)
         {
 
         }
